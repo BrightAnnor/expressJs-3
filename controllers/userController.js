@@ -3,7 +3,7 @@ const home = (req,res)=>{
     res.render('pages/index');
 };
 const aboutUs = (req,res)=>{
-    res.send('About Us')
+    res.render('pages/about')
 };
 const services = (req,res)=>{
     res.send('Service')
