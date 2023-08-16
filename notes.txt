@@ -1,0 +1,8 @@
+**** VIEWS ****
+- Template Engine/View Engine:
+    you are able to separat html instruction
+
+    -pug.
+    -Ejs.
+    -blade.
+    -marko.
