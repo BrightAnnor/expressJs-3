@@ -6,3 +6,15 @@
     -Ejs.
     -blade.
     -marko.
+
+- config server to read static files in the public.(css,js lib.)
+
+- add ejs from yarn for Template engine.
+
+- <% for(let i=0; i<5; i++){ %>
+        <h1>Hello World!</h1>
+    <% } %>
+
+- in the view folder
+    create a folder called partials and add.
+

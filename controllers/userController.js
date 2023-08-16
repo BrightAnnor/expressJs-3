@@ -1,8 +1,6 @@
-const fs = require('fs')
 
 const home = (req,res)=>{
-   const data= fs.readFileSync(__dirname+'/../views/index.html',{encoding:'utf-8'});
-    res.send(data);
+    res.render('pages/index');
 };
 const aboutUs = (req,res)=>{
     res.send('About Us')
