@@ -24,7 +24,7 @@ app.use(express.static('public'));
 // and set your folder from views to what you want.
 
 // to change the default .html file to .ejs template engine and read it.
-app.set('view engine','ejs')
+app.set('view engine','ejs');
 
 
 //serverlisten

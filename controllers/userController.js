@@ -5,16 +5,16 @@ const home = (req,res)=>{
 const aboutUs = (req,res)=>{
     res.render('pages/about')
 };
-const services = (req,res)=>{
-    res.send('Service')
+const post = (req,res)=>{
+    res.render('pages/post')
 };
 const contact = (req,res)=>{
-    res.send('Contact')
+    res.render('pages/contact')
 };
 
 module.exports ={
     home,
     aboutUs,
-    services,
+    post,
     contact
 };
