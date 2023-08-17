@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
             if (currentTop > 0 && mainNav.classList.contains('is-fixed')) {
                 mainNav.classList.add('is-visible');
             } else {
-                console.log(123);
+                // console.log(123);
                 mainNav.classList.remove('is-visible', 'is-fixed');
             }
         } else {
@@ -26,4 +26,21 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         scrollPos = currentTop;
     });
-})
+});
+
+const theme = document.getElementById('theme');
+
+let isDark = false;
+theme.addEventListener('click',()=>{
+    isDark = !isDark
+
+    if(isDark){
+        document.body.style.backgroundColor = '#26425A'
+        document.body.style.color = 'white'
+    }else{
+        document.body.style.backgroundColor = 'white'
+        document.body.style.color = 'black'
+
+    }
+
+});
