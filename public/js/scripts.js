@@ -37,6 +37,7 @@ theme.addEventListener('click',()=>{
     if(isDark){
         document.body.style.backgroundColor = '#26425A'
         document.body.style.color = 'white'
+        // document.getElementsByTagName('a').style.color = 'white'
     }else{
         document.body.style.backgroundColor = 'white'
         document.body.style.color = 'black'
