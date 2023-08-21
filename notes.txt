@@ -18,3 +18,7 @@
 - in the view folder
     create a folder called partials and add.
 
+   *** LAYOUT/TEMPLATE ***
+   Express-ejs-layout.
+
+   to create a layout.ejs to wrap the page up.
